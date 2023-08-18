@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import Coba from './components/Coba'
+import Top_category from './components/Top_category'
 
 export default function Home() {
   return (
     <main>
-      <Coba></Coba>
+      <Top_category></Top_category>
     </main>
-  )
+  );
 }
