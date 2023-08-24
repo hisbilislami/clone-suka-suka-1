@@ -6,7 +6,7 @@ import NavLinks from './NavLinks'
 
 const Navbar = () => {
     return (
-        <nav class="pl-20 mt-3">
+        <nav class="pl-10 mt-3">
             <div class="flex items-center font-medium justify-around">
                 <div class="z-50">
                     <img
@@ -15,7 +15,7 @@ const Navbar = () => {
                         alt="Your Company"
                     />
                 </div>
-                <ul class="md:flex hidden items-center gap-6 text-slate-700 font-medium">
+                <ul class="md:flex hidden items-center gap-4 text-slate-700 font-medium">
                     <li>
                         <Link to="/" class="inline-block text-nss-bittersweet "> Home </Link>
                     </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
                         <Link to="/" class="inline-block "> Contact Us </Link>
                     </li>
                 </ul>
-                <div class="ml-16 mr-2">
+                <div class="ml-10 mr-2">
                     <button class="bg-white text-slate-700 font-medium py-4 px-10 rounded-full text-hover:white hover:bg-nss-bittersweet hover:text-white">
                         Login
                     </button>
