@@ -23,10 +23,10 @@ const NavLinks = () => {
                                         <div class="w-5 h-5 left-8 absolute mt-2 bg-white rotate-45">
                                         </div>
                                     </div>
-                                    <div class="bg-white pl-4 pt-3 pb-1 pr-20 rounded">
+                                    <div class="bg-white w-52 rounded">
                                         {
                                             Link.sublinks.map((mysublinks) => (
-                                                <div>
+                                                <div class="flex flex-col-reverse divide-y divide-y-reverse">
                                                     <h1 text-lg font-semibold></h1>
                                                     {mysublinks.sublink.map((slink) => (
                                                         <li class="my-3 hover:text-nss-bittersweet p-1">{slink.name}</li>
