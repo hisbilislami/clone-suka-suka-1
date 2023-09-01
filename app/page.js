@@ -4,7 +4,7 @@ import Coba from './components/Coba'
 export default function Home() {
   return (
     <main>
-      <Coba></Coba>
+      <Coba />
     </main>
   )
 }
