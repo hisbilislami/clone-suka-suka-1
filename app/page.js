@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import Coba from './components/jumbotron'
+import React from 'react'
+import Jumbotron from './components/Jumbotron'
 
 export default function Home() {
   return (
     <main>
-      <Coba></Coba>
+      <Jumbotron />
     </main>
   )
 }
