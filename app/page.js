@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import Coba from './components/Coba'
+import React from 'react'
+import Trusted from './components/Trusted'
 
 export default function Home() {
   return (
     <main>
-      <Coba></Coba>
+      <Trusted />
     </main>
   )
 }
