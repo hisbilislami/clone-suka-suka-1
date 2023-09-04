@@ -8,7 +8,7 @@ import FeaturedInstructor from "./components/FeaturedInstructor";
 export default function Home() {
   return (
     <main>
-      <Coba />
+      
       <Jumbotron />
       <Top_category />
       <FeaturedInstructor />

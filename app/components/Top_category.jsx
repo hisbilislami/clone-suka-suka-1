@@ -3,7 +3,7 @@ import React from 'react'
 
 const Top_category = () => {
   return (
-    <div className="h-[100vh] bg-white w-full bg-white pt-10">
+    <div className="h-[100vh] bg-white w-full bg-white pt-24">
       <div className="flex">
         <div className="w-3/4 ml-32">
           <h6 className="text-[#FF6575] pb-4 font-bold">Favorite Course</h6>
