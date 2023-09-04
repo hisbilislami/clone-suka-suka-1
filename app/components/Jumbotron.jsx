@@ -6,6 +6,7 @@ import { RiUserStarLine } from "react-icons/ri";
 import { TbCertificate2 } from "react-icons/tb";
 import { FaUserGraduate } from "react-icons/fa";
 import {FaStar} from "react-icons/fa";
+import Navbar from "./Navbar/Navbar";
 
 const Jumbotron = () => {
   return (
@@ -14,9 +15,15 @@ const Jumbotron = () => {
         className="bg-snow relative"
         
       >
+        <div class="p-2 flex item-center justify-center h-full w-full bg-gradient-to-r from-nss-misty-rose from-10% via-nss-misty-rose via-10% to-nss-alice-blue to-90%">
+        
+        <Navbar />
+        </div>
         <div className="container">
+        
           <div className="flex">
             <div className="w-full self-center px-28 py-44">
+            
               <h1 className=" text-davysgray text-xl">
                 The Leader in Online Learning
               </h1>
@@ -128,12 +135,10 @@ const Jumbotron = () => {
         </div>
 
         {/* garis potong*/}
-        <hr />
-
-
+      
         {/* Card Courses */}
         <div class="static pb-28 ">
-          <div class="px-8 absolute bottom-12 left-0 grid grid-cols-4 gap-4 w-full">
+          <div class="px-8 absolute -bottom-16 left-0 grid grid-cols-4 gap-4 w-full">
             {/* Online Courses */}
             <div
               class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
