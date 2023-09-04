@@ -5,18 +5,19 @@ import { FaPencilRuler } from "react-icons/fa";
 import { RiUserStarLine } from "react-icons/ri";
 import { TbCertificate2 } from "react-icons/tb";
 import { FaUserGraduate } from "react-icons/fa";
+import {FaStar} from "react-icons/fa";
 
 const Jumbotron = () => {
   return (
     <>
       <div
         className="bg-snow relative"
-        // style={{ height: "150vh", overflow: "hidden" }}
+        
       >
         <div className="container">
           <div className="flex">
             <div className="w-full self-center px-28 py-44">
-              <h1 className="text-base text-davysgray text-xl">
+              <h1 className=" text-davysgray text-xl">
                 The Leader in Online Learning
               </h1>
               <h2 className="text-base font-semibold text-ungu">
@@ -75,7 +76,7 @@ const Jumbotron = () => {
                 </form>
               </div>
 
-              <p className="text-base  text-davysgray text-xl">
+              <p className=" text-davysgray text-xl">
                 Trusted by over 15K Users
                 <br /> worldwide since 2022
               </p>
@@ -83,9 +84,29 @@ const Jumbotron = () => {
               <div class="trust-rating d-flex align-items-center">
                 <div class="rate-head">
                   <h2>
-                    <span className="block font-bold text-5xl mt-2 text-ungu">
-                      0+ 4.5
-                    </span>
+                    <div class="flex flex-row">
+                      <div>
+                      <span className="block font-bold text-5xl mt-2 text-ungu">
+                        0+ 4.5 
+                      </span>
+                      </div>
+                      <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400"/>
+                      </div>
+                      <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400"/>
+                      </div>
+                      <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400"/>
+                      </div>
+                      <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400"/>
+                      </div>
+                      <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400"/>
+                      </div>
+                    </div>
+                    
                   </h2>
                 </div>
               </div>
@@ -109,13 +130,14 @@ const Jumbotron = () => {
         {/* garis potong*/}
         <hr />
 
+
         {/* Card Courses */}
         <div class="static pb-28 ">
           <div class="px-8 absolute bottom-12 left-0 grid grid-cols-4 gap-4 w-full">
             {/* Online Courses */}
             <div
               class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
-max-h-32 max-w-5xl border-gray-200"
+                      max-h-32 max-w-5xl border-gray-200 bg-white"
             >
               <div class="p-8">
                 <div class="px-3 bg-mistyrose rounded-full w-fit h-fit">
@@ -123,7 +145,7 @@ max-h-32 max-w-5xl border-gray-200"
                 </div>
               </div>
               <div class="py-8 -ml-8">
-                <h4 class="text-3xl font-bold text-blue-900"> 0K </h4>
+                <h4 class="text-3xl font-bold text-ungu"> 0K </h4>
                 <p class="text-lg text-gray-500">Online Courses</p>
               </div>
             </div>
@@ -131,7 +153,7 @@ max-h-32 max-w-5xl border-gray-200"
             {/* Expert Tutor */}
             <div
               class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
-max-h-32 max-w-5xl border-gray-200"
+                      max-h-32 max-w-5xl border-gray-200 bg-white"
             >
               <div class="p-8">
                 <div class="px-3 bg-aliceblue rounded-full w-fit h-fit">
@@ -147,7 +169,7 @@ max-h-32 max-w-5xl border-gray-200"
             {/* Ceritified Courses */}
             <div
               class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
-max-h-32 max-w-5xl border-gray-200"
+                    max-h-32 max-w-5xl border-gray-200 bg-white"
             >
               <div class="p-8">
                 <div class="px-3 bg-purple-100 rounded-full w-fit h-fit">
@@ -163,7 +185,7 @@ max-h-32 max-w-5xl border-gray-200"
             {/* Online Students */}
             <div
               class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
-max-h-32 max-w-5xl border-gray-200"
+                    max-h-32 max-w-5xl border-gray-200 bg-white"
             >
               <div class="p-8">
                 <div class="px-3 bg-azureweb rounded-full w-fit h-fit">
