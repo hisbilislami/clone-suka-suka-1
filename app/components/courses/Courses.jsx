@@ -8,7 +8,7 @@ import { AiFillStar } from "react-icons/ai";
 const Courses = () => {
   return (
     <>
-      <div div class="py-20 px-8">
+      <div div class="py-20 container mx-auto">
         {/* Title */}
         <div class="flow-root grid grid-cols-2 gap-4">
           <div class="float-left">

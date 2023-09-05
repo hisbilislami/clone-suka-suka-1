@@ -3,7 +3,7 @@ import React from 'react'
 import { FaBook } from "react-icons/fa";
 function FeaturedInstructor() {
   return (
-    <div className="h-[100vh] w-full">
+    <div className="container mx-auto w-full">
       <h1 className="text-[#002058] mb-4 text-4xl font-bold text-center">
         Featured Instructor
       </h1>
@@ -12,32 +12,18 @@ function FeaturedInstructor() {
         accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse
         imperdiet.
       </p>
-      <div className="flex flex-row justify-between mx-8">
-        <div className="bg-[#FFFFFF] border-[#e9ecef] h-[420px] border-[1px] rounded-t-lg">
-          <Image
-            className="rounded-t-lg"
-            src="/profile1.png"
-            width={300}
-            height={300}
-            alt="A"
-          ></Image>
-          <h5 className="font-bold text-2xl text-center pb-2 pt-2">
-            Alice Lane
-          </h5>
-          <p className="text-sm text-center text-[#002058] pb-2">Instructor</p>
-          <div className="text-center">
-            <p className="text-sm text-center text-[#002058] inline-flex">
-              <FaBook className="mr-2 m-auto text-red-400" />0 Course
-            </p>
-          </div>
-        </div>
-        <div className="bg-[#FFFFFF] border-[#e9ecef] h-[420px] border-[1px] rounded-t-lg">
+      <div class="grid grid-cols-4 gap-4">
+        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile2.jpg"
             width={300}
             height={300}
             alt="A"
+            style={{
+              width: "100%",
+              height: "300px",
+            }}
           ></Image>
           <h5 className="font-bold text-2xl text-center pb-2 pt-2">
             Alice Lane
@@ -49,12 +35,16 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div className="bg-[#FFFFFF] border-[#e9ecef] h-[420px] border-[1px] rounded-t-lg">
+        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile3.jpg"
             width={300}
             height={300}
+            style={{
+              width: "100%",
+              height: "300px",
+            }}
             alt="A"
           ></Image>
           <h5 className="font-bold text-2xl text-center pb-2 pt-2">
@@ -67,12 +57,38 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div className="bg-[#FFFFFF] border-[#e9ecef] h-[420px] border-[1px] rounded-t-lg">
+        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile4.jpg"
             width={300}
             height={300}
+            style={{
+              width: "100%",
+              height: "300px",
+            }}
+            alt="A"
+          ></Image>
+          <h5 className="font-bold text-2xl text-center pb-2 pt-2">
+            Alice Lane
+          </h5>
+          <p className="text-sm text-center text-[#002058] pb-2">Instructor</p>
+          <div className="text-center">
+            <p className="text-sm text-center text-[#002058] inline-flex">
+              <FaBook className="mr-2 m-auto text-red-400" />0 Course
+            </p>
+          </div>
+        </div>
+        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+          <Image
+            className="rounded-t-lg"
+            src="/profile5.jpg"
+            width={300}
+            height={300}
+            style={{
+              width: "100%",
+              height: "300px",
+            }}
             alt="A"
           ></Image>
           <h5 className="font-bold text-2xl text-center pb-2 pt-2">
