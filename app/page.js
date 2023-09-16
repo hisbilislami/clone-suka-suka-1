@@ -4,6 +4,7 @@ import Jumbotron from "./components/Jumbotron";
 import Top_category from "./components/Top_category";
 import Coba from "./components/Coba";
 import FeaturedInstructor from "./components/FeaturedInstructor";
+import StudentCourse from "./components/StudentCourse";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Top_category />
       <Coba />
       <FeaturedInstructor />
+      <StudentCourse />
     </main>
   );
 }
