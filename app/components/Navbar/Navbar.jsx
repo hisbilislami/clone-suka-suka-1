@@ -36,7 +36,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div class="ml-10 mr-2">
-          <button class="bg-white text-slate-700 font-medium py-4 px-10 rounded-full text-hover:white hover:bg-nss-bittersweet hover:text-white">
+          <button class="bg-white text-slate-700 font-medium py-4 px-10 rounded-full text-hover:white hover:bg-violet-950 hover:text-white">
             Login
           </button>
         </div>
