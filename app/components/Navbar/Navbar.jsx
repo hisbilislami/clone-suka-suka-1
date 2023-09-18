@@ -5,16 +5,16 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav class="pl-10 mt-3">
-      <div class="flex items-center font-medium justify-around">
-        <div class="z-50">
+    <nav class="mt-3 w-full">
+      <div class="flex items-center font-medium justify-between">
+        <div class="z-50 pr-8">
           <img
             class="md:cursor-pointer h-10 mr-24 "
             src="/logo.svg"
             alt="Your Company"
           />
         </div>
-        <ul class="md:flex hidden items-center gap-4 text-slate-700 font-medium">
+        <ul class="flex items-center gap-4 text-slate-700 font-medium justify-between w-full">
           <li>
             <Link href="/" class="inline-block text-nss-bittersweet ">
               {" "}
