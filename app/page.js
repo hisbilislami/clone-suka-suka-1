@@ -1,9 +1,11 @@
-"use client";
-import React from "react";
+"use client"
+import React from 'react'
+import Trusted from './components/Trusted'
 import Jumbotron from "./components/Jumbotron";
 import Top_category from "./components/Top_category";
-import Coba from "./components/Coba";
 import FeaturedInstructor from "./components/FeaturedInstructor";
+import Coba from './components/Coba';
+import JoinMentor from "./components/JoinMentor";
 
 export default function Home() {
   return (
@@ -12,6 +14,9 @@ export default function Home() {
       <Top_category />
       <Coba />
       <FeaturedInstructor />
+      <Trusted />
+      <JoinMentor/>
+      
     </main>
   );
 }
