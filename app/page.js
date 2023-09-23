@@ -6,6 +6,7 @@ import Top_category from "./components/Top_category";
 import FeaturedInstructor from "./components/FeaturedInstructor";
 import Coba from './components/Coba';
 import JoinMentor from "./components/JoinMentor";
+import Become from './components/Become';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <FeaturedInstructor />
       <Trusted />
       <JoinMentor/>
+      <Become />
       
     </main>
   );
