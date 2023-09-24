@@ -7,6 +7,7 @@ import FeaturedInstructor from "./components/FeaturedInstructor";
 import Coba from './components/Coba';
 import JoinMentor from "./components/JoinMentor";
 import Become from './components/Become';
+import Unaccess from './components/Unaccess';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Trusted />
       <JoinMentor/>
       <Become />
+      <Unaccess />
       
     </main>
   );
