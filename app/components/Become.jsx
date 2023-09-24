@@ -5,7 +5,7 @@ const Become = () => {
   return (
     <>
       <div className="container mx-auto w-full">
-        <div className="relative px-4 py-10 grid grid-cols-2 gap-4 w-full h-full bg-white">
+        <div className="relative px-4 py-10 grid grid-cols-2 gap-4 w-full h-full bg-white mb-10">
           {/* Become An Instructor */}
           <div className="p-5 w-full h-64 bg-red-100 rounded-lg">
             <h3 className=" text-blue-950 text-2xl font-bold">
