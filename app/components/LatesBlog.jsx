@@ -23,7 +23,7 @@ function LatesBlog(){
                 <div className="py-8 px-6">
 
                 <h3>
-                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center">
+                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate">
                     Expan Your Career Opportunities with Python
                     </a>
                 </h3>
@@ -47,7 +47,7 @@ function LatesBlog(){
                 <div className="py-8 px-6">
 
                 <h3>
-                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center">
+                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate">
                     Learn Web Applications Development From Experts
                     </a>
                 </h3>
@@ -71,7 +71,7 @@ function LatesBlog(){
                 <div className="py-8 px-6">
 
                 <h3>
-                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center">
+                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate">
                     Complete PHP Progamming Career
                     </a>
                 </h3>
@@ -95,7 +95,7 @@ function LatesBlog(){
                 <div className="py-8 px-6">
 
                 <h3>
-                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center">
+                    <a href="#" className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate">
                     Progaming Content Guideline for Beginners
                     </a>
                 </h3>
