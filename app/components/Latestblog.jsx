@@ -12,127 +12,130 @@ function LatestBlog() {
         accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse
         imperdiet.
       </p>
-      <div className="flex flex-wrap">
-        <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
-          <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
-            <Image
-              src="/aa.jpg"
-              alt="aa"
-              width={360}
-              height={200}
-              className="w-full"
-            />
-            <div className="py-8 px-6">
-              <h3>
-                <a
-                  href="#"
-                  className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate"
-                >
-                  Expan Your Career Opportunities with Python
-                </a>
-              </h3>
-            </div>
-            <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
-              Courses
-            </p>
-            <div className="text-center">
-              <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
-                <FaCalendarAlt className="mr-2 m-auto text-red-400" />
-                January 12, 2023
+      <div className="flex justify-center ">
+        <div className="w-[95vw] flex items-stretch gap-x-8">
+          <div className="w-full lg:w-1/2 xl:w-1/4 min-h-[100%]">
+            <div className="h-[95%] bg-white shadow-lg rounded-xl overflow-hidden mb-10">
+              <Image
+                src="/aa.jpg"
+                alt="aa"
+                width={360}
+                height={200}
+                className="w-full"
+              />
+              <div className="py-8 px-2">
+                <h3>
+                  <a
+                    href="#"
+                    className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center "
+                  >
+                    Expan Your Career Opportunities with Python
+                  </a>
+                </h3>
+              </div>
+              <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
+                Courses
               </p>
+              <div className="text-center">
+                <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
+                  <FaCalendarAlt className="mr-2 m-auto text-red-400" />
+                  January 12, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 xl:w-1/4 min-h-[100%]">
+            <div className="h-[95%] bg-white shadow-lg rounded-xl overflow-hidden mb-10">
+              <Image
+                src="/bb.jpg"
+                alt="aa"
+                width={360}
+                height={200}
+                className="w-full"
+              />
+              <div className="py-8 px-2">
+                <h3>
+                  <a
+                    href="#"
+                    className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center "
+                  >
+                    Learn Web Applications Development From Experts
+                  </a>
+                </h3>
+              </div>
+              <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
+                Education
+              </p>
+              <div className="text-center">
+                <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
+                  <FaCalendarAlt className="mr-2 m-auto text-red-400" />
+                  January 12, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 xl:w-1/4 min-h-[100%]">
+            <div className="h-[95%] bg-white shadow-lg rounded-xl overflow-hidden mb-10">
+              <Image
+                src="/cc.jpg"
+                alt="aa"
+                width={360}
+                height={200}
+                className="w-full"
+              />
+              <div className="py-8 px-2">
+                <h3>
+                  <a
+                    href="#"
+                    className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center"
+                  >
+                    Complete PHP Progamming Career
+                  </a>
+                </h3>
+              </div>
+              <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
+                Business
+              </p>
+              <div className="text-center">
+                <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
+                  <FaCalendarAlt className="mr-2 m-auto text-red-400" />
+                  January 12, 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 xl:w-1/4 min-h-[100%]">
+            <div className="h-[95%] bg-white shadow-lg rounded-xl overflow-hidden mb-10">
+              <Image
+                src="/dd.jpg"
+                alt="aa"
+                width={360}
+                height={200}
+                className="w-full"
+              />
+              <div className="py-8 px-2">
+                <h3>
+                  <a
+                    href="#"
+                    className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center"
+                  >
+                    Progaming Content Guideline for Beginners
+                  </a>
+                </h3>
+              </div>
+              <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
+                Grapics Design
+              </p>
+              <div className="text-center">
+                <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
+                  <FaCalendarAlt className="mr-2 m-auto text-red-400" />
+                  January 12, 2023
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
-          <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
-            <Image
-              src="/bb.jpg"
-              alt="aa"
-              width={360}
-              height={200}
-              className="w-full"
-            />
-            <div className="py-8 px-6">
-              <h3>
-                <a
-                  href="#"
-                  className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate"
-                >
-                  Learn Web Applications Development From Experts
-                </a>
-              </h3>
-            </div>
-            <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
-              Education
-            </p>
-            <div className="text-center">
-              <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
-                <FaCalendarAlt className="mr-2 m-auto text-red-400" />
-                January 12, 2023
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
-          <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
-            <Image
-              src="/cc.jpg"
-              alt="aa"
-              width={360}
-              height={200}
-              className="w-full"
-            />
-            <div className="py-8 px-6">
-              <h3>
-                <a
-                  href="#"
-                  className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate"
-                >
-                  Complete PHP Progamming Career
-                </a>
-              </h3>
-            </div>
-            <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
-              Business
-            </p>
-            <div className="text-center">
-              <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
-                <FaCalendarAlt className="mr-2 m-auto text-red-400" />
-                January 12, 2023
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
-          <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
-            <Image
-              src="/dd.jpg"
-              alt="aa"
-              width={360}
-              height={200}
-              className="w-full"
-            />
-            <div className="py-8 px-6">
-              <h3>
-                <a
-                  href="#"
-                  className="block mb-3 font-semibold text-xl text-ungu hover:text-red-400 text-center truncate"
-                >
-                  Progaming Content Guideline for Beginners
-                </a>
-              </h3>
-            </div>
-            <p className="text-sm text-center text-[#002058] -mt-8 mb-6">
-              Grapics Design
-            </p>
-            <div className="text-center">
-              <p className="text-sm text-center text-[#002058] inline-flex mb-6 -mt-2">
-                <FaCalendarAlt className="mr-2 m-auto text-red-400" />
-                January 12, 2023
-              </p>
-            </div>
-          </div>
-        </div>
+
       </div>
       <div className="mt-10 flex justify-center">
         <button className="w-[50px] h-[15px] bg-[#FF6575] rounded-lg"></button>
