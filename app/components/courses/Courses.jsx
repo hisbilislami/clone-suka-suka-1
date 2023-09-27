@@ -7,7 +7,7 @@ import { RiTimerFill } from "react-icons/ri";
 import { AiFillStar } from "react-icons/ai";
 const Courses = () => {
   return (
-    <>
+    <div className='bg-banner'>
       <div div class="py-20 container mx-auto">
         {/* Title */}
         <div class="flow-root grid grid-cols-2 gap-4">
@@ -560,7 +560,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
