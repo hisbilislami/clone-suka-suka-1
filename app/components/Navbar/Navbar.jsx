@@ -35,12 +35,16 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <button class="bg-white text-slate-700 font-medium py-4 px-10 rounded-full text-hover:white hover:bg-nss-bittersweet hover:text-white ml-10 mr-2">
-          Login
-        </button>
-        <button class="border-4 border-indigo-500/50 text-indigo-500/50  font-medium py-3 px-8 rounded-full hover:bg-nss-bittersweet hover:border-nss-bittersweet hover:text-white">
-          Register
-        </button>
+        <div class="ml-10 mr-2">
+          <button class="bg-white text-slate-700 font-medium py-4 px-10 rounded-full text-hover:white hover:bg-violet-950 hover:text-white">
+            Login
+          </button>
+        </div>
+        <div class="pr-20">
+          <button class="border-4 border-indigo-500/50 text-indigo-500/50  font-medium py-3 px-8 rounded-full hover:bg-nss-bittersweet hover:border-nss-bittersweet hover:text-white">
+            Register
+          </button>
+        </div>
         {/* Mobile Mode
                 <ul class={`md:hidden bg-white absolute w-full bottom-0 py-24 pl-4`}>
                     <li>

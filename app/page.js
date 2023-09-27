@@ -1,12 +1,18 @@
-"use client";
-import React from "react";
+"use client"
+import React from 'react'
+import Trusted from './components/Trusted'
 import Jumbotron from "./components/Jumbotron";
 import Top_category from "./components/Top_category";
-import Coba from "./components/Coba";
 import FeaturedInstructor from "./components/FeaturedInstructor";
 import StudentCourse from "./components/StudentCourse";
 import Navbar from "./components/Navbar";
 import NavbarTest from "./components/NavbarTest";
+import ChekcoutReview from "./components/ChekcoutReview";
+import Coba from './components/Coba';
+import JoinMentor from "./components/JoinMentor";
+import Become from './components/Become';
+import Unaccess from './components/Unaccess';
+import LatestBlog from './components/Latestblog';
 
 export default function Home() {
   return (
@@ -18,6 +24,13 @@ export default function Home() {
       <StudentCourse />
       {/* <Navbar/>
       <NavbarTest /> */}
+      <ChekcoutReview />
+      <Trusted />
+      <JoinMentor/>
+      <Become />
+      <LatestBlog/>
+      <Unaccess />
+      
     </main>
   );
 }
