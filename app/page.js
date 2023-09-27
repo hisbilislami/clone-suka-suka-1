@@ -8,6 +8,7 @@ import Coba from './components/Coba';
 import JoinMentor from "./components/JoinMentor";
 import Become from './components/Become';
 import Unaccess from './components/Unaccess';
+import LatestBlog from './components/Latestblog';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Trusted />
       <JoinMentor/>
       <Become />
+      <LatestBlog/>
       <Unaccess />
       
     </main>
