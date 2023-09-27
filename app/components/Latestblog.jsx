@@ -16,7 +16,7 @@ function LatestBlog() {
         <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
           <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
             <Image
-              src="/latesblog/aa.jpg"
+              src="/aa.jpg"
               alt="aa"
               width={360}
               height={200}
@@ -46,7 +46,7 @@ function LatestBlog() {
         <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
           <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
             <Image
-              src="/latesblog/bb.jpg"
+              src="/bb.jpg"
               alt="aa"
               width={360}
               height={200}
@@ -76,7 +76,7 @@ function LatestBlog() {
         <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
           <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
             <Image
-              src="/latesblog/cc.jpg"
+              src="/cc.jpg"
               alt="aa"
               width={360}
               height={200}
@@ -106,7 +106,7 @@ function LatestBlog() {
         <div className="w-full px-10 lg:w-1/2 xl:w-1/4 ">
           <div className="bg-white shadow-lg rounded-xl overflow-hidden mb-10">
             <Image
-              src="/latesblog/dd.jpg"
+              src="/dd.jpg"
               alt="aa"
               width={360}
               height={200}
