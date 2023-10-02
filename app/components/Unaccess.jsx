@@ -4,10 +4,10 @@ import Image from "next/image";
 const Unaccess = () => {
   return (
     <>
-      <div className="container mx-auto w-full">
-        <div className="py-24 px-4 w-full h-fit bg-gradient-to-r from-mistyrose from-10% via-mistyrose via-10% to-aliceblue to-90% ">
+      <div className="w-full h-fit bg-gradient-to-r from-mistyrose from-10% via-mistyrose via-10% to-aliceblue to-90% ">
+        <div className="container mx-auto w-full">
           <div className="flex justify justify-center">
-            <h2 className="w-1/2 text-center text-4xl text-blue-950 font-bold">
+            <h2 className="w-1/2 mt-10 text-center text-4xl text-blue-950 font-bold">
               Unlimited access to 360+ courses and 1,600+ hands-on labs
             </h2>
           </div>

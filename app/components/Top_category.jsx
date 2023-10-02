@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const Top_category = () => {
   return (
@@ -108,11 +108,11 @@ const Top_category = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 flex justify-center">
+      <div className="mt-10 mb-10 flex justify-center">
         <button className="w-[50px] h-[15px] bg-[#FF6575] rounded-lg"></button>
         <button className="w-[15px] h-[15px] bg-[#FFDEDA] rounded-full ml-4 hover:w-[50px] hover:h-[15px] hover:bg-[#FF6575]"></button>
       </div>
     </div>
   );
-}
+};
 export default Top_category;

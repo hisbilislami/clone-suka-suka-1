@@ -5,19 +5,18 @@ import { FaPencilRuler } from "react-icons/fa";
 import { RiUserStarLine } from "react-icons/ri";
 import { TbCertificate2 } from "react-icons/tb";
 import { FaUserGraduate } from "react-icons/fa";
-import {FaStar} from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import Navbar from "./Navbar/Navbar";
 
 const Jumbotron = () => {
   return (
     <>
       <div className="bg-snow">
-      <div className="p-2 flex item-center justify-center h-full w-full bg-gradient-to-r from-nss-misty-rose from-10% via-nss-misty-rose via-10% to-nss-alice-blue to-90%">
-          
+        <div className="container mx-auto w-full p-2 flex item-center justify-center h-full bg-gradient-to-r from-nss-misty-rose from-10% via-nss-misty-rose via-10% to-nss-alice-blue to-90%">
           <Navbar />
         </div>
         <div className="flex container mx-auto">
-          <div className="w-full item-center justify-center py-24">
+          <div className="w-full item-center justify-center py-20">
             <h1 className=" text-davysgray text-xl">
               The Leader in Online Learning
             </h1>

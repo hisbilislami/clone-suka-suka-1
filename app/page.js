@@ -5,8 +5,6 @@ import Jumbotron from "./components/Jumbotron";
 import Top_category from "./components/Top_category";
 import FeaturedInstructor from "./components/FeaturedInstructor";
 import StudentCourse from "./components/StudentCourse";
-import Navbar from "./components/Navbar";
-import NavbarTest from "./components/NavbarTest";
 import ChekcoutReview from "./components/ChekcoutReview";
 import Coba from './components/Coba';
 import JoinMentor from "./components/JoinMentor";
@@ -21,14 +19,12 @@ export default function Home() {
       <Top_category />
       <Coba />
       <FeaturedInstructor />
-      <StudentCourse />
-      {/* <Navbar/>
-      <NavbarTest /> */}
       <ChekcoutReview />
       <Trusted />
       <JoinMentor/>
       <Become />
       <LatestBlog/>
+      <StudentCourse />
       <Unaccess />
       
     </main>
