@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { PiUserCirclePlusFill } from "react-icons/pi";
 import { PiBookOpenTextDuotone } from "react-icons/pi";
 import { PiGlobeDuotone } from "react-icons/pi";
@@ -45,4 +45,4 @@ function StudentCourse() {
   );
 }
 
-export default StudentCourse
+export default StudentCourse;

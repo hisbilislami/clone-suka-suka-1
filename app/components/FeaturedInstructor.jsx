@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 import { FaBook } from "react-icons/fa";
 function FeaturedInstructor() {
   return (
     <div className="container mx-auto w-full">
-      <h1 className="text-[#002058] mb-4 text-4xl font-bold text-center">
+      <h1 className="text-[#002058] mt-6 mb-4 text-4xl font-bold text-center">
         Featured Instructor
       </h1>
       <p className="text-[#685F78] w-[700px] m-auto text-center mb-10">
@@ -110,4 +110,4 @@ function FeaturedInstructor() {
   );
 }
 
-export default FeaturedInstructor
+export default FeaturedInstructor;
