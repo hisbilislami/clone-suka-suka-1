@@ -11,6 +11,7 @@ import JoinMentor from "./components/JoinMentor";
 import Become from './components/Become';
 import Unaccess from './components/Unaccess';
 import LatestBlog from './components/Latestblog';
+import Footers from './components/Footers';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <LatestBlog/>
       <StudentCourse />
       <Unaccess />
+      <Footers/>
       
     </main>
   );

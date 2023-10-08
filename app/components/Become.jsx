@@ -6,8 +6,8 @@ const Become = () => {
     <>
       <div className="container mx-auto w-full">
         <div className="relative container mx-auto py-10">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="bg-[#FFDEDA] p-8 rounded-3xl">
+          <div className="grid grid-cols-2 gap-4">
+            <div className="bg-[#FFDEDA] p-8 rounded-3xl">
               <div className="grid grid-cols-3 gap-4">
                 <div className="col-span-2">
                   <h6 className="font-bold text-2xl mb-4">
@@ -35,7 +35,7 @@ const Become = () => {
             </div>
 
             {/* Access To Education */}
-            <div class="bg-[#FFE88F] p-8 rounded-3xl">
+            <div className="bg-[#FFE88F] p-8 rounded-3xl">
               <div className="grid grid-cols-3 gap-4">
                 <div className="col-span-2">
                   <h6 className="font-bold text-2xl mb-4">

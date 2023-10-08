@@ -52,13 +52,13 @@ function ChekcoutReview() {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
-          <div class="grid grid-cols-3 gap-4 mt-8 w-full px-20 pb-20">
+          <div className="grid grid-cols-3 gap-4 mt-8 w-full px-20 pb-20">
             <div className="justify-self-start">
               <button type="button" className="bg-white p-6">
                 <FaArrowLeft className="text-xl text-[#392C7D]" />
               </button>
             </div>
-            <div class="justify-self-center">
+            <div className="justify-self-center">
               <Image
                 className="rounded-full m-auto mb-4"
                 src="/user1.jpg"
@@ -75,7 +75,7 @@ function ChekcoutReview() {
               </h6>
               <p className="text-[#685f78] text-center">Managing Director</p>
             </div>
-            <div class="justify-self-end">
+            <div className="justify-self-end">
               <button type="button" className="bg-white p-6">
                 <FaArrowRight className="text-xl text-[#392C7D]" />
               </button>
