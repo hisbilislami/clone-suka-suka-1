@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { FaCalendarAlt } from "react-icons/fa";
+
 function LatestBlog() {
   return (
     <>

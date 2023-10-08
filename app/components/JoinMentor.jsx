@@ -5,7 +5,7 @@ import { FaCheckCircle } from "react-icons/fa";
 function JoinMentor() {
   return (
     <>
-      <div class=" bg-snow w-full">
+      <div className=" bg-snow w-full">
         <div className="container mx-auto w-full flex flex-row">
           <div className="w-full">
             <Image

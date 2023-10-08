@@ -12,8 +12,8 @@ function FeaturedInstructor() {
         accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse
         imperdiet.
       </p>
-      <div class="grid grid-cols-4 gap-4">
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+      <div className="grid grid-cols-4 gap-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile2.jpg"
@@ -35,7 +35,7 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile3.jpg"
@@ -57,7 +57,7 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile4.jpg"
@@ -79,7 +79,7 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile5.jpg"
