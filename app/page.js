@@ -11,6 +11,7 @@ import JoinMentor from "./components/JoinMentor";
 import Become from './components/Become';
 import Unaccess from './components/Unaccess';
 import LatestBlog from './components/Latestblog';
+import MasterSkill from './components/MasterSkill';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Top_category />
       <Coba />
       <FeaturedInstructor />
+      <MasterSkill/>
       <ChekcoutReview />
       <Trusted />
       <JoinMentor/>
