@@ -12,7 +12,7 @@ const Jumbotron = () => {
   return (
     <>
       <div className="bg-snow">
-        <div className="container mx-auto w-full p-2 flex item-center justify-center h-full bg-gradient-to-r from-nss-misty-rose from-10% via-nss-misty-rose via-10% to-nss-alice-blue to-90%">
+        <div class="p-2 flex justify-between h-full w-full bg-gradient-to-r from-nss-misty-rose from-10% via-nss-misty-rose via-10% to-nss-alice-blue to-90% container mx-auto">
           <Navbar />
         </div>
         <div className="flex container mx-auto">
@@ -42,7 +42,7 @@ const Jumbotron = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      className="w-5 h-5 text-bittersweet"
+                      class="w-5 h-5 text-bittersweet"
                     >
                       <path
                         fill-rule="evenodd"
@@ -56,7 +56,7 @@ const Jumbotron = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="w-11 h-11 text-bittersweet"
+                      class="w-11 h-11 text-bittersweet"
                     >
                       <path
                         fill-rule="evenodd"
@@ -81,29 +81,29 @@ const Jumbotron = () => {
               <br /> worldwide since 2022
             </p>
 
-            <div className="trust-rating d-flex align-items-center">
-              <div className="rate-head">
+            <div class="trust-rating d-flex align-items-center">
+              <div class="rate-head">
                 <h2>
-                  <div className="flex flex-row">
+                  <div class="flex flex-row">
                     <div>
                       <span className="block font-bold text-5xl mt-2 text-ungu">
                         0+ 4.5
                       </span>
                     </div>
-                    <div className="px-1 py-5">
-                      <FaStar className=" w-5 h-5 fill-orange-400" />
+                    <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400" />
                     </div>
-                    <div className="px-1 py-5">
-                      <FaStar className=" w-5 h-5 fill-orange-400" />
+                    <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400" />
                     </div>
-                    <div className="px-1 py-5">
-                      <FaStar className=" w-5 h-5 fill-orange-400" />
+                    <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400" />
                     </div>
-                    <div className="px-1 py-5">
-                      <FaStar className=" w-5 h-5 fill-orange-400" />
+                    <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400" />
                     </div>
-                    <div className="px-1 py-5">
-                      <FaStar className=" w-5 h-5 fill-orange-400" />
+                    <div class="px-1 py-5">
+                      <FaStar class=" w-5 h-5 fill-orange-400" />
                     </div>
                   </div>
                 </h2>
@@ -126,69 +126,69 @@ const Jumbotron = () => {
         {/* garis potong*/}
 
         {/* Card Courses */}
-        <div className="relative container mx-auto">
-          <div className="absolute -bottom-16 grid grid-cols-4 gap-4 w-full justify-between">
+        <div class="relative container mx-auto">
+          <div class="absolute -bottom-16 grid grid-cols-4 gap-4 w-full justify-between">
             {/* Online Courses */}
             <div
-              className="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
+              class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
                       max-h-32 max-w-5xl border-gray-200 bg-white"
             >
-              <div className="p-8">
-                <div className="px-3 bg-mistyrose rounded-full w-fit h-fit">
-                  <FaPencilRuler className="w-12 h-16 fill-bittersweet rotate-90" />
+              <div class="p-8">
+                <div class="px-3 bg-mistyrose rounded-full w-fit h-fit">
+                  <FaPencilRuler class="w-12 h-16 fill-bittersweet rotate-90" />
                 </div>
               </div>
-              <div className="py-8 -ml-8">
-                <h4 className="text-3xl font-bold text-ungu"> 0K </h4>
-                <p className="text-lg text-gray-500">Online Courses</p>
+              <div class="py-8 -ml-8">
+                <h4 class="text-3xl font-bold text-ungu"> 0K </h4>
+                <p class="text-lg text-gray-500">Online Courses</p>
               </div>
             </div>
 
             {/* Expert Tutor */}
             <div
-              className="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
+              class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
                       max-h-32 max-w-5xl border-gray-200 bg-white"
             >
-              <div className="p-8">
-                <div className="px-3 bg-aliceblue rounded-full w-fit h-fit">
-                  <RiUserStarLine className="w-12 h-16 fill-blue-900" />
+              <div class="p-8">
+                <div class="px-3 bg-aliceblue rounded-full w-fit h-fit">
+                  <RiUserStarLine class="w-12 h-16 fill-blue-900" />
                 </div>
               </div>
-              <div className="py-8 -ml-8">
-                <h4 className="text-3xl font-bold text-blue-900"> 186+ </h4>
-                <p className="text-lg text-gray-500">Expert Tutors</p>
+              <div class="py-8 -ml-8">
+                <h4 class="text-3xl font-bold text-blue-900"> 186+ </h4>
+                <p class="text-lg text-gray-500">Expert Tutors</p>
               </div>
             </div>
 
             {/* Ceritified Courses */}
             <div
-              className="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
+              class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
                     max-h-32 max-w-5xl border-gray-200 bg-white"
             >
-              <div className="p-8">
-                <div className="px-3 bg-purple-100 rounded-full w-fit h-fit">
-                  <TbCertificate2 className="stroke-purple-800 w-12 h-16" />
+              <div class="p-8">
+                <div class="px-3 bg-purple-100 rounded-full w-fit h-fit">
+                  <TbCertificate2 class="stroke-purple-800 w-12 h-16" />
                 </div>
               </div>
-              <div className="py-8 -ml-8">
-                <h4 className="text-3xl font-bold text-blue-900"> 5K+ </h4>
-                <p className="text-lg text-gray-500">Ceritified Courses</p>
+              <div class="py-8 -ml-8">
+                <h4 class="text-3xl font-bold text-blue-900"> 5K+ </h4>
+                <p class="text-lg text-gray-500">Ceritified Courses</p>
               </div>
             </div>
 
             {/* Online Students */}
             <div
-              className="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
+              class="relative w-full grid grid-cols-2 border-2 rounded-3xl max-h-max max-w-5xl
                     max-h-32 max-w-5xl border-gray-200 bg-white"
             >
-              <div className="p-8">
-                <div className="px-3 bg-azureweb rounded-full w-fit h-fit">
-                  <FaUserGraduate className="w-12 h-16 fill-cyan-500" />
+              <div class="p-8">
+                <div class="px-3 bg-azureweb rounded-full w-fit h-fit">
+                  <FaUserGraduate class="w-12 h-16 fill-cyan-500" />
                 </div>
               </div>
-              <div className="py-8 -ml-8">
-                <h4 className="text-3xl font-bold text-blue-900"> 55K+ </h4>
-                <p className="text-lg text-gray-500">Online Students</p>
+              <div class="py-8 -ml-8">
+                <h4 class="text-3xl font-bold text-blue-900"> 55K+ </h4>
+                <p class="text-lg text-gray-500">Online Students</p>
               </div>
             </div>
           </div>
