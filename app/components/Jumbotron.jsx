@@ -5,7 +5,7 @@ import { FaPencilRuler } from "react-icons/fa";
 import { RiUserStarLine } from "react-icons/ri";
 import { TbCertificate2 } from "react-icons/tb";
 import { FaUserGraduate } from "react-icons/fa";
-import {FaStar} from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import Navbar from "./Navbar/Navbar";
 
 const Jumbotron = () => {
@@ -16,7 +16,7 @@ const Jumbotron = () => {
           <Navbar />
         </div>
         <div className="flex container mx-auto">
-          <div className="w-full item-center justify-center py-24">
+          <div className="w-full item-center justify-center py-20">
             <h1 className=" text-davysgray text-xl">
               The Leader in Online Learning
             </h1>

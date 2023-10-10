@@ -7,25 +7,25 @@ const NavLinks = () => {
     <>
       {links.map((Link) => (
         <div>
-          <div class="text-left md:cursor-pointer group">
-            <h1 class="py-7 flex justify-betwen items-center md:pr-0 ">
+          <div className="text-left md:cursor-pointer group">
+            <h1 className="py-7 flex justify-betwen items-center md:pr-0 ">
               {Link.name}
-              <span class="ml-2">
+              <span className="ml-2">
                 <HiOutlineChevronDown />
               </span>
             </h1>
             {Link.submenu && (
               <div>
-                <div class="absolute top-20 hidden group-hover:block hover:block">
-                  <div class="py-3">
-                    <div class="w-5 h-5 left-8 absolute mt-2 bg-white rotate-45"></div>
+                <div className="absolute top-20 hidden group-hover:block hover:block">
+                  <div className="py-3">
+                    <div className="w-5 h-5 left-8 absolute mt-2 bg-white rotate-45"></div>
                   </div>
-                  <div class="bg-white w-52 rounded">
+                  <div className="bg-white w-52 rounded">
                     {Link.sublinks.map((mysublinks) => (
-                      <div class="grid grid-cols-1 divide-y">
+                      <div className="grid grid-cols-1 divide-y">
                         <h1 text-lg font-semibold></h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li class="my-3 hover:text-nss-bittersweet p-1">
+                          <li className="my-3 hover:text-nss-bittersweet p-1">
                             {slink.name}
                           </li>
                         ))}

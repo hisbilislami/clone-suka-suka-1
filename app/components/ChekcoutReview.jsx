@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -52,13 +52,13 @@ function ChekcoutReview() {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
-          <div class="grid grid-cols-3 gap-4 mt-8 w-full px-20 pb-20">
+          <div className="grid grid-cols-3 gap-4 mt-8 w-full px-20 pb-20">
             <div className="justify-self-start">
               <button type="button" className="bg-white p-6">
                 <FaArrowLeft className="text-xl text-[#392C7D]" />
               </button>
             </div>
-            <div class="justify-self-center">
+            <div className="justify-self-center">
               <Image
                 className="rounded-full m-auto mb-4"
                 src="/user1.jpg"
@@ -75,7 +75,7 @@ function ChekcoutReview() {
               </h6>
               <p className="text-[#685f78] text-center">Managing Director</p>
             </div>
-            <div class="justify-self-end">
+            <div className="justify-self-end">
               <button type="button" className="bg-white p-6">
                 <FaArrowRight className="text-xl text-[#392C7D]" />
               </button>
@@ -83,64 +83,8 @@ function ChekcoutReview() {
           </div>
         </di>
       </div>
-      <div className="relative container mx-auto mt-72 mb-20">
-        <div class="grid grid-cols-2 gap-4">
-          <div class="bg-[#FFDEDA] p-8 rounded-3xl">
-            <div className="grid grid-cols-3 gap-4">
-              <div className="col-span-2">
-                <h6 className="font-bold text-2xl mb-4">
-                  Become An Instructor
-                </h6>
-                <p>
-                  Top instructors from around the world teach millions of
-                  students on Mentoring.
-                </p>
-              </div>
-              <div>
-                <Image
-                  className=""
-                  src="/become1.png"
-                  width={300}
-                  height={300}
-                  alt="A"
-                  style={{
-                    width: "100%",
-                    height: "170px",
-                  }}
-                ></Image>
-              </div>
-            </div>
-          </div>
-          <div class="bg-[#FFE88F] p-8 rounded-3xl">
-            <div className="grid grid-cols-3 gap-4">
-              <div className="col-span-2">
-                <h6 className="font-bold text-2xl mb-4">
-                  Transform Access To Education
-                </h6>
-                <p>
-                  Create an account to receive our newsletter, course
-                  recommendations and promotions.
-                </p>
-              </div>
-              <div>
-                <Image
-                  className=""
-                  src="/become-02.png"
-                  width={300}
-                  height={300}
-                  alt="A"
-                  style={{
-                    width: "100%",
-                    height: "170px",
-                  }}
-                ></Image>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
 
-export default ChekcoutReview
+export default ChekcoutReview;

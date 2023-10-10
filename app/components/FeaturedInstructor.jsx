@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 import { FaBook } from "react-icons/fa";
 function FeaturedInstructor() {
   return (
     <div className="container mx-auto w-full">
-      <h1 className="text-[#002058] mb-4 text-4xl font-bold text-center">
+      <h1 className="text-[#002058] mt-6 mb-4 text-4xl font-bold text-center">
         Featured Instructor
       </h1>
       <p className="text-[#685F78] w-[700px] m-auto text-center mb-10">
@@ -12,8 +12,8 @@ function FeaturedInstructor() {
         accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse
         imperdiet.
       </p>
-      <div class="grid grid-cols-4 gap-4">
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+      <div className="grid grid-cols-4 gap-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile2.jpg"
@@ -35,7 +35,7 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile3.jpg"
@@ -57,7 +57,7 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile4.jpg"
@@ -79,7 +79,7 @@ function FeaturedInstructor() {
             </p>
           </div>
         </div>
-        <div class="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
+        <div className="bg-[#FFFFFF] border-[#e9ecef] w-full border-[1px] rounded-t-lg pb-4">
           <Image
             className="rounded-t-lg"
             src="/profile5.jpg"
@@ -110,4 +110,4 @@ function FeaturedInstructor() {
   );
 }
 
-export default FeaturedInstructor
+export default FeaturedInstructor;
