@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 function ChekcoutReview() {
   return (
     <div className="w-full relative">
-      <div className="min-h-[500px] bg-[url('/background.jpg')] bg-no-repeat mt-20">
+      <div className="min-h-[500px] bg-[url('/background.jpg')] bg-no-repeat mt-20 bg-cover">
         <div className="container mx-auto w-full relative">
           <h1 className="text-white mb-4 text-2xl font-bold text-center pt-20">
             Check out these real reviews
