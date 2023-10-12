@@ -4,8 +4,8 @@ import React from "react";
 const Top_category = () => {
   return (
     <div className="container mx-auto bg-white w-full bg-white mt-28 mb-18">
-      <div class="grid grid-cols-4 gap-4 mb-20">
-        <div class="col-span-3">
+      <div className="grid grid-cols-4 gap-4 mb-20">
+        <div className="col-span-3">
           <h6 className="text-[#FF6575] pb-4 font-bold">Favorite Course</h6>
           <h1 className="text-[#002058] pb-4 text-4xl font-bold">
             Top Category
@@ -22,7 +22,7 @@ const Top_category = () => {
           </button>
         </div>
       </div>
-      <div class="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4">
         <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
           <div className="flex justify-center">
             <Image
@@ -44,7 +44,7 @@ const Top_category = () => {
             <p className="text-[#685F78] group-hover:text-white">4 Courses</p>
           </div>
         </div>
-        <div class="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
+        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
           <div className="flex justify-center">
             <Image
               className="mt-6"
@@ -65,7 +65,7 @@ const Top_category = () => {
             <p className="text-[#685F78] group-hover:text-white">3 Courses</p>
           </div>
         </div>
-        <div class="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
+        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
           <div className="flex justify-center">
             <Image
               className="mt-6"
@@ -86,7 +86,7 @@ const Top_category = () => {
             <p className="text-[#685F78] group-hover:text-white">3 Courses</p>
           </div>
         </div>
-        <div class="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
+        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
           <div className="flex justify-center">
             <Image
               className="mt-6"
