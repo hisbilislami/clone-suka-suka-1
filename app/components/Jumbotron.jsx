@@ -11,12 +11,14 @@ import Navbar from "./Navbar/Navbar";
 const Jumbotron = () => {
   return (
     <>
-      <div className="bg-snow">
-        <div className="p-2 flex justify-between h-full w-full bg-gradient-to-r from-nss-misty-rose from-10% via-nss-misty-rose via-10% to-nss-alice-blue to-90% container mx-auto">
-          <Navbar />
+      <div className="bg-banner">
+        <div className="px-2 flex justify-center w-full h-full bg-gradient-to-r from-nss-misty-rose from-10% via-nss-misty-rose via-10% to-nss-alice-blue to-90% mx-auto">
+          <div className="w-[90%]">
+            <Navbar />
+          </div>
         </div>
         <div className="flex container mx-auto">
-          <div className="w-full item-center justify-center py-20">
+          <div className="w-full item-center justify-center px-2 py-20">
             <h1 className=" text-davysgray text-xl">
               The Leader in Online Learning
             </h1>
@@ -87,7 +89,7 @@ const Jumbotron = () => {
                   <div className="flex flex-row">
                     <div>
                       <span className="block font-bold text-5xl mt-2 text-ungu">
-                        0+ 4.5
+                        290+ 4.5
                       </span>
                     </div>
                     <div className="px-1 py-5">

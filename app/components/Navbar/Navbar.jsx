@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="mt-3 w-full">
-      <div className="flex items-center font-medium justify-between">
+    <nav className="w-full">
+      <div className="flex items-center font-medium justify-center w-[auto]">
         <div className="z-50 pr-8">
           <img
             className="md:cursor-pointer h-10 mr-24 "
@@ -40,7 +40,7 @@ const Navbar = () => {
             Login
           </button>
         </div>
-        <div className="pr-20">
+        <div>
           <button className="border-4 border-indigo-500/50 text-indigo-500/50  font-medium py-3 px-8 rounded-full hover:bg-nss-bittersweet hover:border-nss-bittersweet hover:text-white">
             Register
           </button>
