@@ -14,7 +14,7 @@ const Courses = () => {
           <div class="float-left">
             <div class="pb-2">
               <span class="text-nss-bittersweet text-2xl font-semibold">
-                What's New
+                What&apos;s New
               </span>
             </div>
             <div>
