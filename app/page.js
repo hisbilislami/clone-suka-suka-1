@@ -11,10 +11,7 @@ import JoinMentor from "./components/JoinMentor";
 import Become from './components/Become';
 import Unaccess from './components/Unaccess';
 import LatestBlog from './components/Latestblog';
-<<<<<<< HEAD
 import MasterSkill from './components/MasterSkill';
-=======
->>>>>>> 2c1571355650ec26c8da7b50d3ffa3ec02b78136
 import Footers from './components/Footers';
 
 export default function Home() {
