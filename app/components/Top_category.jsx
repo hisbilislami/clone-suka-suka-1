@@ -3,27 +3,29 @@ import React from "react";
 
 const Top_category = () => {
   return (
-    <div className="container mx-auto bg-white w-full bg-white mt-28 mb-18">
-      <div className="grid grid-cols-4 gap-4 mb-20">
-        <div className="col-span-3">
+    <div className="container mx-auto bg-white w-full bg-white mt-28 mb-18 md:px-0 px-3">
+      <div className="md:grid md:grid-cols-4 md:gap-4 mb-20">
+        <div className="md:col-span-3">
           <h6 className="text-[#FF6575] pb-4 font-bold">Favorite Course</h6>
           <h1 className="text-[#002058] pb-4 text-4xl font-bold">
             Top Category
           </h1>
-          <p className="text-[#685F78] w-3/4">
+        </div>
+        <div className="md:col-end-7 md:py-0 py-4 ">
+          <button className="border-solid border-2 border-[#B4A7F5] rounded-full px-3 py-2 hover:bg-[#B4A7F5] hover:text-[#fff]">
+            All Categories
+          </button>
+        </div>
+        <div className="md:col-span-4">
+          <p className="text-[#685F78] md:w-3/4 w-full">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean
             accumsan bibendum gravida maecenas augue elementum et neque.
             Suspendisse imperdiet.
           </p>
         </div>
-        <div className="col-end-7">
-          <button className="border-solid border-2 border-[#B4A7F5] rounded-full px-3 py-2 hover:bg-[#B4A7F5] hover:text-[#fff]">
-            All Categories
-          </button>
-        </div>
       </div>
-      <div className="grid grid-cols-4 gap-4">
-        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
+      <div className="md:grid md:grid-cols-4 md:gap-4">
+        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff] md:mb-0 mb-3">
           <div className="flex justify-center">
             <Image
               className="mt-6"
@@ -44,7 +46,7 @@ const Top_category = () => {
             <p className="text-[#685F78] group-hover:text-white">4 Courses</p>
           </div>
         </div>
-        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
+        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff] md:mb-0 mb-3">
           <div className="flex justify-center">
             <Image
               className="mt-6"
@@ -65,7 +67,7 @@ const Top_category = () => {
             <p className="text-[#685F78] group-hover:text-white">3 Courses</p>
           </div>
         </div>
-        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
+        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff] md:mb-0 mb-3">
           <div className="flex justify-center">
             <Image
               className="mt-6"
@@ -86,7 +88,7 @@ const Top_category = () => {
             <p className="text-[#685F78] group-hover:text-white">3 Courses</p>
           </div>
         </div>
-        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff]">
+        <div className="border-lg border-[#e9ecef] border-[1px] w-full pb-8 rounded-xl hover:bg-[#413655] group hover:text-[#fff] md:mb-0 mb-3">
           <div className="flex justify-center">
             <Image
               className="mt-6"
