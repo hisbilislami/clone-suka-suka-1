@@ -17,9 +17,10 @@ import Footers from "./components/Footers";
 export default function Home() {
   return (
     <main>
-      <Jumbotron />
+      {/* <Jumbotron /> */}
       <Top_category />
-      <Coba />
+      <MasterSkill />
+      {/* <Coba />
       <FeaturedInstructor />
       <MasterSkill />
       <ChekcoutReview />
@@ -29,7 +30,7 @@ export default function Home() {
       <LatestBlog />
       <StudentCourse />
       <Unaccess />
-      <Footers />
+      <Footers /> */}
     </main>
   );
 }
