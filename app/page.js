@@ -19,6 +19,7 @@ export default function Home() {
     <main>
       {/* <Jumbotron /> */}
       <Top_category />
+      <MasterSkill />
       {/* <Coba />
       <FeaturedInstructor />
       <MasterSkill />
